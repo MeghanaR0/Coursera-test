@@ -1,0 +1,148 @@
+h1{
+	text-align: center;
+	margin-bottom: 15px;
+}
+
+*{
+	box-sizing: border-box;
+}
+
+#one{
+	background-color: #ffff00;
+}
+#two{
+	background-color: #ff0000;
+}
+#three{
+	background-color: #800000;
+}
+
+@media(min-width: 992px){
+
+	#ni,#si,#ch{
+	padding: 30px;
+	margin: 10px;
+	float: left;
+	border: 5px solid black;
+	width: 25%;
+	height: auto;
+	position: relative;
+	text-align: justify-all;
+	background-color: #ffa500;
+	}
+	#one,#two,#three{
+	position: relative;
+	bottom: 105px;
+	left:  157px;
+	float: left;
+	border: 1px solid black;
+	width: 30%;
+	padding: 0;
+	margin: 0;
+	text-align: center;
+	height: auto;
+	}
+}
+@media(min-width: 768px) and (max-width: 991px){
+
+	#ni,#si{
+	padding: 30px;
+	margin: 10px;
+	float: left;
+	border: 5px solid black;
+	width: 45%;
+	height: auto;
+	position: relative;
+	text-align: justify-all;
+	background-color: #ffa500;
+	margin-bottom: 10px;
+	}
+	#ch{
+	padding: 30px;
+	margin: 10px;
+	float: left;
+	border: 5px solid black;
+	width: 100%;
+	height: auto;
+	position: relative;
+	text-align: justify-all;
+	background-color: #ffa500;
+	}
+	#one,#two{
+	position: relative;
+	bottom: 50px;
+	left:  320px;
+	float: left;
+	border: 1px solid black;
+	width: 30%;
+	padding: 0;
+	margin: 0;
+	text-align: center;
+	height: auto;
+	}
+	#three{
+	position: relative;
+	top: -33px;
+	left:  798px;
+	float: left;
+	border: 1px solid black;
+	width: 30%;
+	padding: 0;
+	margin: 0;
+	text-align: justify-all;
+	height: auto;
+	}
+}
+
+@media(max-width: 767px){
+
+	#ni{
+	padding: 30px;
+	margin: 10px;
+	float: left;
+	border: 5px solid black;
+	width: 100%;
+	height: auto;
+	position: relative;
+	text-align: justify-all;
+	background-color: #ffa500;
+	margin-bottom: 10px;
+	}
+	#si{
+	padding: 30px;
+	margin: 10px;
+	float: left;
+	border: 5px solid black;
+	width: 100%;
+	height: auto;
+	position: relative;
+	text-align: justify-all;
+	background-color: #ffa500;
+	margin-bottom: 10px;
+	}
+	#ch{
+	padding: 30px;
+	margin: 10px;
+	float: left;
+	border: 5px solid black;
+	width: 100%;
+	height: auto;
+	position: relative;
+	text-align: justify-all;
+	background-color: #ffa500;
+	margin-bottom: 10px;
+	}
+	#one,#two,#three{
+	position: relative;
+	bottom: 0px;
+	left:  0px;
+	float: left;
+	border: 1px solid black;
+	width: 30%;
+	padding: 0;
+	margin: 0;
+	text-align: center;
+	height: auto;
+	}
+}
+
