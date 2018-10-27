@@ -1,0 +1,51 @@
+h1{
+	text-align: center;
+	margin-bottom: 15px;
+}
+*{
+	box-sizing: border-box;
+}
+#one{
+	background-color: #ffff00;
+}
+#two{
+	background-color: #ff0000;
+}
+#three{
+	background-color: #898f00;
+}
+#ni,#si,#ch{
+	padding: 20px;
+	margin: 15px;
+	float: left;
+	border: 5px solid black;
+	width: 30%;
+	position: relative;
+	text-align: justify-all;
+	background-color: #ffa500;
+	margin-bottom: 10px;
+}
+#one,#two,#three{
+	position: absolute;
+	top: 0;
+	right: 0;
+	border: 2px solid black;
+	padding: 2px;
+	text-align: center;
+	}
+
+@media(min-width: 768px) and (max-width: 991px){
+	#ni,#si{
+	float: left;
+	width: 45%;
+		}
+	#ch{
+	width: 100%;
+	}
+}
+@media(max-width: 767px){
+	#ni,#si,#ch{
+	width: 100%;
+	}
+}
+	
